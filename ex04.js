@@ -22,4 +22,5 @@ const blackjack = (array) => {
   //if the value is less than 12 and it includes an A turn it to 11
   // if not return total
   return total < 12 && array.includes("A") ? total + 10 : total;
+
 };
