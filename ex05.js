@@ -17,5 +17,3 @@ const shiftCipher = (string, n) => {
   }
   return result;
 };
-
-console.log(shiftCipher("hola", 5));
